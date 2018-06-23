@@ -57,7 +57,7 @@ def print_purpose(PROGRAM_NAME):
     sys.exit(EXIT_SUCCESS)
 
 def print_usage(PROGRAM_NAME):
-    print(PROGRAM_NAME+"\n  Usage: [-b, --binary, -c, --core] [-i, --info]")
+    print(PROGRAM_NAME+"\n  Usage: gdb_export [-b, --binary, -c, --core] [-i, --info]")
     sys.exit(EXIT_ERROR)
 
 
