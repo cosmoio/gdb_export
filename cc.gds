@@ -1,0 +1,11 @@
+ set pagination off
+                    set logging file gdb.txt
+                    set logging on
+                    file ./test_func.out
+                    bt
+                    i r
+                    i f
+                    x/100x $rsp
+                    q
+                    y
+                     
